@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/contact', 'PagesController@about');
+Route::get('/about', 'PagesController@about');
 
 /*
 |--------------------------------------------------------------------------
